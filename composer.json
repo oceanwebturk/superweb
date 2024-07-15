@@ -1,0 +1,39 @@
+{
+ "name": "oceanwebturk/superweb",
+ "description": "Single package for web technologies such as Open Graph, PWA",    
+ "type": "oceanwebturk-package",
+ "keywords": ["oceanwebturk","framework","core","superweb"],
+ "license": "MIT",
+ "homepage": "https://github.com/oceanwebturk/superweb",
+ "archive":{
+  "name": "oceanwebturk-superweb"
+ },
+ "support":{
+  "source": "https://github.com/oceanwebturk/superweb",
+  "issues": "https://github.com/oceanwebturk/superweb/issues"
+ },
+ "config":{
+  "optimize-autoloader": true,
+  "preferred-install": "dist",
+  "sort-packages": true,
+  "classmap-authoritative": true
+ },
+ "require":{
+  "php": ">=7.4"
+ },
+ "autoload":{
+  "psr-4":{
+   "OceanWebTurk\\SuperWeb\\": "./src/"
+  },
+  "files": ["./helpers.php"]
+ },
+ "extra":{
+  "oceanwebturk":{
+   "providers":[
+    "OceanWebTurk\\SuperWeb\\SuperWebServiceProvider"
+   ]
+  }
+ },
+ "minimum-stability": "dev",
+ "prefer-stable": true
+}
