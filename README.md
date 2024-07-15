@@ -9,8 +9,21 @@ Single package for web technologies such as Open Graph, PWA
 
 # Installation
 
-```bash
-composer require oceanwebturk/superweb
+```
+$ composer require oceanwebturk/superweb
+```
+
+**OR** open your `composer.json` file and add the package like this:
+```json
+{
+    "require": {
+        "oceanwebturk/superweb": "1.0"
+    }
+}
+```
+after run the install command.
+```
+$ composer install
 ```
 
 # Start
