@@ -1,19 +1,19 @@
 # OceanWebTurk SuperWeb
 Single package for web technologies such as Open Graph, PWA
 
-## Supported
+# Supported
 
 * PWA
 * Open Graph
 * Twitter Card
 
-## Installation
+# Installation
 
 ```bash
 composer require oceanwebturk/superweb
 ```
 
-## Start
+# Start
 
 1. First, we will add the following code under this `namespace App\Providers`
 
