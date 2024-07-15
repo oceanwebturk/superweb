@@ -26,7 +26,7 @@ after run the install command.
 $ composer install
 ```
 
-# Start
+# Usage
 
 1. First, we will add the following code under this `namespace App\Providers`
 
