@@ -45,7 +45,7 @@ SuperWeb::config([
 
 3. Run this command
 ```bash
-php bin/console superweb:publish
+$ php bin/console superweb:publish
 ```
 
 4. You will add this code to the `head` tags of your layout
