@@ -1,7 +1,7 @@
 {
  "name": "oceanwebturk/superweb",
  "description": "Single package for web technologies such as Open Graph, PWA",    
- "type": "oceanwebturk-package",
+ "type": ["oceanwebturk-package","znframework-package"],
  "keywords": ["oceanwebturk","framework","core","superweb"],
  "license": "MIT",
  "homepage": "https://github.com/oceanwebturk/superweb",
