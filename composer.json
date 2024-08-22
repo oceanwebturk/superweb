@@ -31,7 +31,13 @@
   "oceanwebturk":{
    "providers":[
     "OceanWebTurk\\SuperWeb\\SuperWebServiceProvider"
-   ]
+   ],
+   "aliases":{
+    "Seo": "OceanWebTurk\\SuperWeb\\Seo",    
+    "RSS": "OceanWebTurk\\SuperWeb\\RSS",
+    "Sitemap": "OceanWebTurk\\SuperWeb\\Sitemap",
+    "SuperWeb": "OceanWebTurk\\SuperWeb\\SuperWeb"
+   }
   }
  },
  "minimum-stability": "dev",

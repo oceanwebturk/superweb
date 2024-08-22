@@ -1,0 +1,16 @@
+{
+    "id": "/",
+    "scope": "/",
+    "start_url": "/",
+    "name": "OceanWebTurk",
+    "short_name": "OceanWebTurk",
+    "description": "OceanWebTurk Web App",
+    "theme_color": "#1885ff",
+    "background_color": "#ffffff",
+    "orientation": "any",
+    "display": "standalone",
+    "categories": ["social", "business", "personalization"],
+    "display_override": ["window-controls-overlay"],
+    "edge_side_panel": { "preferred_width": 480 },
+    "launch_handler": { "route_to": "existing-client", "navigate_existing_client": "never" }
+}

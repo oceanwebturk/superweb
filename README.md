@@ -1,32 +1,21 @@
 # OceanWebTurk SuperWeb
 Single package for web technologies such as Open Graph, PWA
 
-# Supported
+## Supported
 
+* RSS
 * PWA
 * Open Graph
 * Twitter Card
+* Sitemap Generator
 
-# Installation
+## Installation
 
-```
-$ composer require oceanwebturk/superweb
-```
-
-**OR** open your `composer.json` file and add the package like this:
-```json
-{
-    "require": {
-        "oceanwebturk/superweb": "1.0"
-    }
-}
-```
-after run the install command.
-```
-$ composer install
+```bash
+composer require oceanwebturk/superweb
 ```
 
-# Usage
+## Start
 
 1. First, we will add the following code under this `namespace App\Providers`
 
@@ -45,7 +34,7 @@ SuperWeb::config([
 
 3. Run this command
 ```bash
-$ php bin/console superweb:publish
+php bin/console superweb:publish
 ```
 
 4. You will add this code to the `head` tags of your layout
