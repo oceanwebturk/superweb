@@ -28,6 +28,9 @@
   "files": ["./helpers.php"]
  },
  "extra":{
+  "commands": {
+   "superweb:publish": ["OceanWebTurk\\SuperWeb\\Command","publish"]
+  },
   "oceanwebturk":{
    "providers":[
     "OceanWebTurk\\SuperWeb\\SuperWebServiceProvider"

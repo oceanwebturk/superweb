@@ -12,5 +12,17 @@
     "categories": ["social", "business", "personalization"],
     "display_override": ["window-controls-overlay"],
     "edge_side_panel": { "preferred_width": 480 },
-    "launch_handler": { "route_to": "existing-client", "navigate_existing_client": "never" }
+    "launch_handler": { "route_to": "existing-client", "navigate_existing_client": "never" },
+    "icons": [
+        {
+          "src": "img/192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "img/512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+    ]
 }

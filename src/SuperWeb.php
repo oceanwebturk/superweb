@@ -39,7 +39,7 @@ class SuperWeb extends Seo
  {
   self::$content[] = '<meta name="header" content="global-navigation"><meta name="target" content="on"><meta name="view-transition" content="same-origin"><link rel="profile" href="https://gmpg.org/xfn/11">
   '.Seo::generate().'<meta name="author" content="'.(isset(self::$configs['author']) ? self::$configs['author'] : (isset(self::$configs['default_author']) ? self::$configs['default_author'] : '')).'">
-  <base href="'.site_url().'"><link rel="canonical" href="'.self::defaultControl('canonical',URL::canonical()).'"><link type="application/json" rel="manifest" href="'.(str_replace(["{SITE_URI}"],[site_url()],(isset(self::$configs['manifest_uri']) ? self::$configs['manifest_uri'] : '{SITE_URI}manifest.json'))).'" crossorigin="use-credentials">';
+  <base href="'.site_url().'"><link rel="canonical" href="'.self::defaultControl('canonical',URL::canonical()).'"><link type="application/json" rel="manifest" href="'.(str_replace(["{SITE_URI}"],[site_url()],(isset(self::$configs['manifest_uri']) ? self::$configs['manifest_uri'] : '{SITE_URI}site.webmanifest'))).'" crossorigin="use-credentials">';
 
   self::$content[] = '<meta name="HandheldFriendly" content="true">
   <meta name="MobileOptimized" content="width"><meta name="showInMobile" content="true"><meta name="footer" content="global-footer"><meta name="searchNavigationTab" content="Other"><meta name="google-site-verification" content="'.self::defaultControl('google-site-verify-code').'">
